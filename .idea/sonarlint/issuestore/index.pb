@@ -17,3 +17,5 @@ Ujfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/repository/StockRepositor
 Kjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/model/StockModel.java,f\4\f4ac0027a2eed3afa240582b70cd33f28decd837
 ‡
 Wjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/repository/ProductRepository.java,d\7\d75fb993a1be739e061b0026239fd55149d8ca35
+…
+Ujfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/controller/StockController.java,1\b\1b83f6bc1c73ca1e3d253d094f7bca5f15574991
