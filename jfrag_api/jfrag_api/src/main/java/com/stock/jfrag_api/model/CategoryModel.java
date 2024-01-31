@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
 @Entity
 @Getter
 @Setter
@@ -21,4 +23,8 @@ public class CategoryModel {
 
     @Column(name = "category_value", nullable = false)
     private String categoryValue;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinColumn(name = "fk_cat_id", referencedColumnName = "id")
+    private List<ProductModel> productModel;
 }

@@ -33,4 +33,6 @@ public class ProductModel {
 
     @OneToOne(mappedBy = "productModel")
     private StockModel stockModel;
+
+
 }

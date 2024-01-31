@@ -1,5 +1,6 @@
 package com.stock.jfrag_api.controller;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.stock.jfrag_api.model.CategoryModel;
 import com.stock.jfrag_api.model.ProductModel;
 import com.stock.jfrag_api.repository.CategoryRepository;
@@ -20,6 +21,7 @@ public class CategoryController {
     private CategoryRepository categoryRepository;
 
     @PostMapping("/addCategory")
+    @JsonFormat(shape= JsonFormat.Shape.STRING)
     public CategoryModel saveProduct(@RequestBody CategoryModel categoryModel){
 //       return categoryRepository.saveAll(categoryModel);
         return categoryRepository.save(categoryModel);
