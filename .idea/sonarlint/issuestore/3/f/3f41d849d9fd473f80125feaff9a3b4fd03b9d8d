@@ -1,0 +1,14 @@
+
+r
+java:S3655!"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(›èœ™øÿÿÿÿ8¦©Þ‹Ö1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8¦©Þ‹Ö1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8§©Þ‹Ö1
+L	java:S106&"+Replace this use of System.out by a logger.(ô¾íµùÿÿÿÿ8«©Þ‹Ö1
+]	java:S125'"<This block of commented-out lines of code should be removed.(¬¡–¢üÿÿÿÿ8«©Þ‹Ö1
+X	java:S125-"<This block of commented-out lines of code should be removed.(˜Úž‚8«©Þ‹Ö1
+f
+java:S1128	"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8«©Þ‹Ö1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8«©Þ‹Ö1

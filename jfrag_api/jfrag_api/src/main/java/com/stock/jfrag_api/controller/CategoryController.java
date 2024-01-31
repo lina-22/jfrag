@@ -1,12 +1,8 @@
 package com.stock.jfrag_api.controller;
 
-import com.fasterxml.jackson.annotation.JsonFormat;
 import com.stock.jfrag_api.model.CategoryModel;
-import com.stock.jfrag_api.model.ProductModel;
 import com.stock.jfrag_api.repository.CategoryRepository;
-import com.stock.jfrag_api.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,8 +16,7 @@ public class CategoryController {
     @Autowired
     private CategoryRepository categoryRepository;
 
-    @PostMapping("/addCategory")
-    @JsonFormat(shape= JsonFormat.Shape.STRING)
+    @PostMapping("/add-category")
     public CategoryModel saveProduct(@RequestBody CategoryModel categoryModel){
 //       return categoryRepository.saveAll(categoryModel);
         return categoryRepository.save(categoryModel);

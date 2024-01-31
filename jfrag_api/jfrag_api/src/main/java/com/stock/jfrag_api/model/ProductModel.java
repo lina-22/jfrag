@@ -1,16 +1,19 @@
 package com.stock.jfrag_api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.util.List;
+
+@Data
 @Entity
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
-@Table(name = "products")
+@Table(name = "product")
+@ToString
 public class ProductModel {
+
     @Id
     @Column(name ="id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -34,5 +37,9 @@ public class ProductModel {
     @OneToOne(mappedBy = "productModel")
     private StockModel stockModel;
 
+    @ToString.Exclude
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "fk_cat_id")
+    private CategoryModel categoryModel;
 
 }

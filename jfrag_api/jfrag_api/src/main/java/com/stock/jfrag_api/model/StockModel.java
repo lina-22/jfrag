@@ -3,13 +3,11 @@ package com.stock.jfrag_api.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+@Data
 @Entity
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
-@Table(name = "stocks")
+@Table(name = "stock")
 public class StockModel {
     @Id
     @Column(name ="id", nullable = false)

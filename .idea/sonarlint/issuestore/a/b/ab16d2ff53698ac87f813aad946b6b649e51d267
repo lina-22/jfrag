@@ -1,0 +1,4 @@
+
+@	java:S106"+Replace this use of System.out by a logger.(¸²¤¹
+z
+java:S1128"dRemove this unused import 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration'.(¦–·Ë

@@ -1,19 +1,15 @@
 package com.stock.jfrag_api.model;
-
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.List;
 
+@Data
 @Entity
-@Getter
-@Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name = "categories")
+@Table(name = "category")
 public class CategoryModel {
 
     @Id
@@ -21,10 +17,11 @@ public class CategoryModel {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
 
-    @Column(name = "category_value", nullable = false)
-    private String categoryValue;
+    @Column(name = "name", nullable = false)
+    private String name;
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @JsonIgnore
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "fk_cat_id", referencedColumnName = "id")
     private List<ProductModel> productModel;
 }
