@@ -10,11 +10,11 @@ import lombok.*;
 @AllArgsConstructor
 @Data
 @Table(name = "products")
-public class ProductcModel {
+public class ProductModel {
     @Id
-    @Column(name ="product_id", nullable = false)
+    @Column(name ="id", nullable = false)
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long productId;
+    private Long Id;
 
     @Column(name="name", nullable = false)
     private  String name;
@@ -30,4 +30,7 @@ public class ProductcModel {
 
     @Column(name = "description")
     private String description;
+
+    @OneToOne(mappedBy = "productModel")
+    private StockModel stockModel;
 }
