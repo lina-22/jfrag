@@ -11,7 +11,7 @@ public interface StockService {
     StockModel create(StockModel stockModel);
     Optional<StockModel> findById(Long id);
     List<StockModel> findAll(StockModel stockModel);
-    CategoryModel update(CategoryModel categoryModel);
+    StockModel update(StockModel stockModel);
 
     void delete(Long id);
 
