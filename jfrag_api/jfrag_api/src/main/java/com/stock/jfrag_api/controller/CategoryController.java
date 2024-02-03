@@ -1,5 +1,7 @@
 package com.stock.jfrag_api.controller;
 
+import com.stock.jfrag_api.dto.CategoryDto;
+import com.stock.jfrag_api.manager.CategoryManager;
 import com.stock.jfrag_api.model.CategoryModel;
 import com.stock.jfrag_api.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,12 +16,11 @@ import java.util.List;
 @RequestMapping("/categories")
 public class CategoryController {
     @Autowired
-    private CategoryRepository categoryRepository;
+    private CategoryManager categoryManager;
 
     @PostMapping("/add-category")
-    public CategoryModel saveProduct(@RequestBody CategoryModel categoryModel){
-//       return categoryRepository.saveAll(categoryModel);
-        return categoryRepository.save(categoryModel);
+    public CategoryDto saveProduct(@RequestBody CategoryDto categoryDto){
+        return categoryManager.createCategory(categoryDto);
 
     }
 }

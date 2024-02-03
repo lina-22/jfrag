@@ -4,10 +4,12 @@ import com.stock.jfrag_api.model.CategoryModel;
 import com.stock.jfrag_api.model.StockModel;
 import com.stock.jfrag_api.repository.StockRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;
 
+@Component
 public class StockServiceImpl implements StockService{
 
     @Autowired

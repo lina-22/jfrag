@@ -3,10 +3,12 @@ package com.stock.jfrag_api.services;
 import com.stock.jfrag_api.model.ProductModel;
 import com.stock.jfrag_api.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 import java.util.Optional;
 
+@Component
 public class ProductServiceImpl implements ProductService{
 
     @Autowired

@@ -1,6 +1,9 @@
 
-X
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ
-Q	java:S125"<This block of commented-out lines of code should be removed.(ˆÎ¥
-F
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄÞ8Êª±çÖ1
+a
+java:S1128"DRemove this unused import 'com.stock.jfrag_api.model.CategoryModel'.(ÙšÂÊ8Ð•ÌçÖ1
+k
+java:S1128"NRemove this unused import 'com.stock.jfrag_api.repository.CategoryRepository'.(ãÆ©Ñ8Ð•ÌçÖ1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ð•ÌçÖ1
