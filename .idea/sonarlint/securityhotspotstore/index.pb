@@ -19,3 +19,15 @@ Kjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/model/StockModel.java,f\
 Wjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/repository/ProductRepository.java,d\7\d75fb993a1be739e061b0026239fd55149d8ca35
 …
 Ujfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/controller/StockController.java,1\b\1b83f6bc1c73ca1e3d253d094f7bca5f15574991
+€
+Pjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/services/StockService.java,6\8\685c4b6d46e1944f674698cd3f0fec84d83d85a6
+„
+Tjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/services/StockServiceImpl.java,e\a\ea12b1c2a241e0eff59d072247570e48e0111616
+†
+Vjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/services/ProductServiceImpl.java,7\d\7db9f5d16ec27444a78f3454203c3027e36d249f
+‚
+Rjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/services/ProductService.java,0\6\06cb2f664be46065c88ff50a232ccd1e6c07b215
+ƒ
+Sjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/services/CategoryService.java,b\8\b8c24263de453e6d4d9161976cc62c66354ec525
+‡
+Wjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/services/CategoryServiceImpl.java,3\2\32bf4527683ca65ca117f9692534b88504a14e89
