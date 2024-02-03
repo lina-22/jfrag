@@ -37,3 +37,9 @@ w
 Gjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/dto/StockDto.java,d\f\df81247288fa0e861c919ee8e743feaac2c6e648
 z
 Jjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/dto/CategoryDto.java,c\1\c192553aec8fcec69ebf037212ed39f012345f61
+Å
+Qjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/manager/ProductManager.java,e\9\e9606075c5a7b7ea44ef1bfe472d6e38cc4aee08
+Ç
+Rjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/manager/CategoryManager.java,3\d\3d308771f9430909f954869241f1331d941ac86d
+
+Ojfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/manager/StockManager.java,f\8\f8909d27f9a1b690d5f349e4d3465e4c564e13ad
