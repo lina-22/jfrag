@@ -1,8 +1,6 @@
 package com.stock.jfrag_api.manager;
 
-import com.stock.jfrag_api.dto.CategoryDto;
 import com.stock.jfrag_api.dto.StockDto;
-import com.stock.jfrag_api.model.CategoryModel;
 import com.stock.jfrag_api.model.StockModel;
 import com.stock.jfrag_api.services.StockService;
 import lombok.AllArgsConstructor;
