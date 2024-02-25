@@ -15,6 +15,7 @@ public class StockController {
     StockRepository stockRepository;
     @PostMapping("/add-stock")
     public StockModel stockModel(@RequestBody StockModel stockModel){
+
         return stockRepository.save(stockModel);
     }
 }

@@ -1,9 +1,4 @@
 
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Êª±çÖ1
-a
-java:S1128"DRemove this unused import 'com.stock.jfrag_api.model.CategoryModel'.(ÙšÂÊ8Ğ•ÌçÖ1
-k
-java:S1128"NRemove this unused import 'com.stock.jfrag_api.repository.CategoryRepository'.(ãÆ©Ñ8Ğ•ÌçÖ1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ğ•ÌçÖ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8óÓúìİ1
+G	java:S106/"+Replace this use of System.out by a logger.(¼¿ìç8÷Óúìİ1

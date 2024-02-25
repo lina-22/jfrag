@@ -43,3 +43,5 @@ Qjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/manager/ProductManager.ja
 Rjfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/manager/CategoryManager.java,3\d\3d308771f9430909f954869241f1331d941ac86d
 
 Ojfrag_api/jfrag_api/src/main/java/com/stock/jfrag_api/manager/StockManager.java,f\8\f8909d27f9a1b690d5f349e4d3465e4c564e13ad
+K
+jfrag_api/jfrag_api/pom.xml,3\b\3b90bac4d6651a4d1fbb64459a90ed4b898435b4
