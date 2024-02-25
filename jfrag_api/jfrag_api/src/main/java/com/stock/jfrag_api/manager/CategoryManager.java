@@ -5,7 +5,6 @@ import com.stock.jfrag_api.model.CategoryModel;
 import com.stock.jfrag_api.services.CategoryService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
