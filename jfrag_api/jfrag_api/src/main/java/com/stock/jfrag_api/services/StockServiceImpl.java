@@ -26,7 +26,7 @@ public class StockServiceImpl implements StockService{
     }
 
     @Override
-    public List<StockModel> findAll(StockModel stockModel) {
+    public List<StockModel> findAll() {
         return stockRepository.findAll();
     }
 

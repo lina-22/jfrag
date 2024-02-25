@@ -1,14 +1,14 @@
 
 r
-java:S3655!"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(›èœ™øÿÿÿÿ8¦©Ş‹Ö1
+java:S3655!"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(›èœ™øÿÿÿÿ8Æ¿¾Ş1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¦©Ş‹Ö1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ç¿¾Ş1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8§©Ş‹Ö1
-L	java:S106&"+Replace this use of System.out by a logger.(ô¾íµùÿÿÿÿ8«©Ş‹Ö1
-]	java:S125'"<This block of commented-out lines of code should be removed.(¬¡–¢üÿÿÿÿ8«©Ş‹Ö1
-X	java:S125-"<This block of commented-out lines of code should be removed.(˜Ú‚8«©Ş‹Ö1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Ç¿¾Ş1
+L	java:S106&"+Replace this use of System.out by a logger.(ô¾íµùÿÿÿÿ8Ê¿¾Ş1
+]	java:S125'"<This block of commented-out lines of code should be removed.(¬¡–¢üÿÿÿÿ8Ê¿¾Ş1
+X	java:S125-"<This block of commented-out lines of code should be removed.(˜Ú‚8Ê¿¾Ş1
 f
-java:S1128	"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8«©Ş‹Ö1
+java:S1128	"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8Ë¿¾Ş1
 M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8«©Ş‹Ö1
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ë¿¾Ş1

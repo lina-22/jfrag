@@ -1,21 +1,31 @@
 package com.stock.jfrag_api.controller;
 
-import com.stock.jfrag_api.model.StockModel;
-import com.stock.jfrag_api.repository.StockRepository;
+import com.stock.jfrag_api.dto.StockDto;
+import com.stock.jfrag_api.manager.StockManager;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/stocks")
 public class StockController {
     @Autowired
-    StockRepository stockRepository;
+    private StockManager stockManager;
     @PostMapping("/add-stock")
-    public StockModel stockModel(@RequestBody StockModel stockModel){
+    public StockDto createStock(@RequestBody StockDto stockDto){
+        return stockManager.createStock(stockDto);
+    }
 
-        return stockRepository.save(stockModel);
+    @GetMapping
+    public List<StockDto> getAllStock(){
+
+        return stockManager.getAllStock();
+    }
+
+    @GetMapping(path = "/{id}")
+    public StockDto getStockById(@PathVariable long id){
+
+        return stockManager.getStockById(id);
     }
 }
