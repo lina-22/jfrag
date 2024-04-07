@@ -15,6 +15,7 @@ import { LastFewTransactionsComponent } from './last-few-transactions/last-few-t
 import { TopThreeProductsComponent } from './top-three-products/top-three-products.component';
 import { MainComponent } from './main/main.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ChartModule } from 'angular-highcharts';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     TopThreeProductsComponent,
     MainComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, ChartModule],
   providers: [],
   bootstrap: [AppComponent],
 })

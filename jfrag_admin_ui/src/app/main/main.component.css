@@ -24,6 +24,7 @@
 
 /* *----------------middle section----------------- * */
 .middle_section {
+  border: 2px solid blue;
   display: flex;
   justify-content: space-between;
   @media only screen and (max-width: 1600px) {
