@@ -13,8 +13,8 @@
   --fw-extra-black: 900;
 
   /* font size */
-  --fs-x-lare: 1.5rem;
-  --fs-lare: 1.25rem;
+  --fs-x-large: 1.5rem;
+  --fs-large: 1.25rem;
   --fs-normal: 1rem;
   --fs-medium: 0.875rem;
   --fs-small: 0.75rem;
@@ -28,7 +28,8 @@
   --clr-navy-blue: #002642;
   --clr-dark-navy-blue: #050a24;
   --clr-gold-black: #181010;
-  --clr-red-hightlight: #eb1616;
+  --clr-red-hightlight: #ff0000;
+  --clr-yellow-hightlight: #f0d01a;
   --clr-red-hightlight-light: #ff671b;
 
   /* padding */
