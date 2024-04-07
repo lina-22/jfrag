@@ -14,6 +14,7 @@ import { SalesByCategoryComponent } from './sales-by-category/sales-by-category.
 import { LastFewTransactionsComponent } from './last-few-transactions/last-few-transactions.component';
 import { TopThreeProductsComponent } from './top-three-products/top-three-products.component';
 import { MainComponent } from './main/main.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { MainComponent } from './main/main.component';
     TopThreeProductsComponent,
     MainComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
   bootstrap: [AppComponent],
 })
