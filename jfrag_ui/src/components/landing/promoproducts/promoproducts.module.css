@@ -127,6 +127,13 @@ section.promo_cart_items > *:last-child::after {
     font-size: 1.2rem;
     padding-inline: 3em;
   }
+  .promo_cart .link_more {
+    text-align: center;
+    padding: calc(var(--pd-base));
+  }
+  .link_more a {
+    font-size: var(--fs-medium);
+  }
 }
 @media screen and (max-width: 400px) {
   div.promo_cart_container h3 {
